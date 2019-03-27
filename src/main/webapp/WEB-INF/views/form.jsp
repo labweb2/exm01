@@ -12,6 +12,8 @@
 <body>
     <form action="index.html" method="post">
         nome <input name="nome"/>
+        idade <input name="idade" type="number"/>
+        
         <input type="submit"/> 
 
     </form>
