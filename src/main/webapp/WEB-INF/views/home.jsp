@@ -11,6 +11,6 @@
 </head>
 <body>
     <h1>EXM01: home</h1>
-    <p>Bem Vindo ${nome} (${idade} anos): ao curso de Introdução ao Spring boot</p>
+    <p>Bem Vindo ${pessoa.nome} (${pessoa.idade} anos): ao curso de Introdução ao Spring boot</p>
 </body>
 </html>
