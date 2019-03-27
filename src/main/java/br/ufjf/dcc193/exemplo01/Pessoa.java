@@ -9,9 +9,10 @@ public class Pessoa {
     private Integer idade;
 
     Pessoa (){
-        this.nome = "";
+        this.nome = "asd";
         this.idade= 0;
     }
+    
     public void setNome(String nome) {
         this.nome = nome;
     }
