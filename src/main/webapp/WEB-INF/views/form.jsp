@@ -10,7 +10,10 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>EXM01: home</h1>
-    <p>Bem Vindo ${nome}: ao curso de Introdução ao Spring boot</p>
+    <form action="index.html" method="post">
+        nome <input name="nome"/>
+        <input type="submit"/> 
+
+    </form>
 </body>
 </html>
