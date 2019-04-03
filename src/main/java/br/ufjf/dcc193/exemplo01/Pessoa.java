@@ -4,15 +4,24 @@ package br.ufjf.dcc193.exemplo01;
  * Pessoa
  */
 public class Pessoa {
-
+    private Long id;
     private String nome;
     private Integer idade;
 
     Pessoa (){
-        this.nome = "asd";
-        this.idade= 0;
+        
+    }
+    Pessoa(String nome, Integer idade){
+        this.nome=nome;
+        this.idade = idade;
     }
     
+    public void setId(Long id) {
+        this.id = id;
+    }
+    public Long getId() {
+        return id;
+    }
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -25,5 +34,9 @@ public class Pessoa {
   
     public Integer getIdade() {
         return idade;
+    }
+    @Override
+    public String toString() {
+        return this.nome+""+this.idade+" anos";
     }
 }
