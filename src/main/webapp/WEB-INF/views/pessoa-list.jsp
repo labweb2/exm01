@@ -1,4 +1,5 @@
 <%@page pageEncoding="utf-8"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix = "c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +12,9 @@
 </head>
 <body>
     <h1>lista de pessoas</h1>
-    <p>Bem Vindo ${galera}</p>
+
+    <c:forEach var="pessoa" items="${galera}">
+        <p>${pessoa.nome}</p>
+    </c:forEach>
 </body>
 </html>
