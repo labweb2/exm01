@@ -46,6 +46,6 @@ public class Pessoa {
     }
     @Override
     public String toString() {
-        return this.nome+""+this.idade+" anos";
+        return this.nome+" "+this.idade+" anos id = ["+this.id+"]";
     }
 }
